@@ -18,8 +18,14 @@
 		},
 		"assetBundlePatterns": ["**/*"],
 		"ios": {
-			"supportsTablet": true
+			"supportsTablet": true,
+			"bundleIdentifier": "com.lingvoskill.blog",
+			"buildNumber": "1.0.0"
 		},
-		"android": {}
+		"android": {
+			"package": "com.lingvoskill.blog",
+			"versionCode": 1,
+			"permissions": ["CAMERA", "WRITE_EXTERNAL_STORAGE"]
+		}
 	}
 }
